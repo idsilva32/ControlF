@@ -1,0 +1,144 @@
+:root {
+ 
+}
+
+html {
+    font-size: 1px;
+}
+
+body {
+     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+    color: green;
+    overflow: auto;
+    background-color: darkseagreen;
+
+}
+
+cadastro {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: green;
+    background-color: darkseagreen;
+    text-align: center;
+}
+
+main {
+ 
+}
+
+article  {
+  background-color: darkseagreen;
+  font-size: 30px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+
+header {
+    display: flex;
+}
+
+header>div {
+    margin-right: var(--spacing);
+}
+
+
+header img {
+width: 50rem;
+height:45rem;
+    
+}
+header>img {
+    margin-right: auto;
+}
+
+div{
+   display:inline-block;
+}
+article .profile-picture {
+    width: 200rem;
+    height:200rem;
+    background-image: url("../images/perfil.png");
+    background-size: cover;
+    border-radius: 50%;
+    grid-row: span 2;
+    background-color: darkseagreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article .profile-picture2 {
+    width: 70rem;
+    height:70rem;
+ 
+    background-image: url("../images/clique.png");
+    background-size: cover;
+    border-radius: 50%;
+    grid-row: span 2;
+    background-color: darkseagreen;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+article .profile-redessociais {
+    width: 265rem;
+    height:60rem;
+    background-image: url("../images/redessociais.png");
+    background-color: darkseagreen;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article msg1 {
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  background-color: darkseagreen;
+}
+article msg2 {
+  font-size: 25px;
+  text-align: center;
+  background-color: darkseagreen;
+}
+article msg3 {
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  background-color: darkseagreen;
+}
+article msg4 {
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  background-color: darkseagreen;
+
+  }
+article msg5 {
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  background-color: darkseagreen;
+
+}
+article msgusuario {
+  font-style: normal;
+  font-size: 20px;
+  background-color: darkseagreen;
+ 
+}
+
+
+form {
+     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-style: normal;
+    color: green;
+    overflow: auto;
+    background-color: darkseagreen;
+   
+}
+
